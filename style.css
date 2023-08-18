@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  background: rgb(80, 65, 193);
+  background: linear-gradient(
+    235deg,
+    rgb(56, 40, 128) 30%,
+    rgb(29, 30, 30) 82%
+  );
+  font-family: "Fondamento", cursive;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  color: white;
+  background: linear-gradient(
+    235deg,
+    rgb(79, 58, 176) 30%,
+    rgb(29, 30, 30) 82%
+  );
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+  color: white;
+  font-size: small;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(214, 57, 201);
+  font-size: 0.85rem;
+}

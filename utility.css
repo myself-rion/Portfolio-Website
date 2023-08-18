@@ -1,0 +1,46 @@
+.left {
+  font-size: 1.5rem;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+}
+.leftSection {
+  width: 50%;
+}
+.leftSection img {
+  width: 30vw;
+  margin: 50px 0px 0px 135px;
+}
+.rightSection {
+  font-size: 2.5rem;
+  width: 50%;
+}
+.rightSection .buttons {
+  padding: 40px 0;
+}
+.rightSection .btn {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 8px;
+  opacity: 0.5;
+  font-size: 35%;
+  cursor: pointer;
+  background-color: transparent;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+.btn a:hover {
+  color: rgb(255, 158, 245);
+  font-size: 0.85rem;
+}
+#name {
+  color: rgb(214, 57, 201);
+}
+#animated_des {
+  color: rgb(214, 57, 201);
+}

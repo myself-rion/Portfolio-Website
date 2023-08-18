@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rion's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./images/ricon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fondamento&family=Poppins:wght@200;300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Rion's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li>
+              <a href="rion_talukder_cv.pdf" download="rion's cv">Resume</a>
+            </li>
+            <li><a href="/">Projects</a></li>
+            <li>
+              <a
+                href="mailto:riontalukder98@gmail.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          <img src="./images/dev2.png" alt="dev logo" />
+        </div>
+        <div class="rightSection">
+          Hi there ! Welcome to my website.
+          <div>I'm <span id="name">Rion Talukder</span> and I'm into</div>
+          <span id="animated_des"></span>
+          <div class="buttons">
+            <button class="btn">
+              <a
+                href="https://github.com/myself-rion"
+                target="_blank"
+                rel="noreferrer noopener"
+                >GitHub</a
+              >
+            </button>
+            <button class="btn">
+              <a
+                href="https://www.linkedin.com/in/riontalukder/"
+                target="_blank"
+                rel="noreferrer noopener"
+                >LinkedIn</a
+              >
+            </button>
+            <button class="btn">
+              <a
+                href="https://www.Instagram.com/myself__rion"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Instagram</a
+              >
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#animated_des", {
+        strings: [
+          "Web Development",
+          "Machine Learning",
+          "Photography",
+          "Teaching",
+        ],
+        typeSpeed: 70,
+      });
+    </script>
+  </body>
+</html>
